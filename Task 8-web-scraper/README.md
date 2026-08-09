@@ -1,4 +1,4 @@
-##linkedin https://www.linkedin.com/posts/noor-fatima-2501b240a_it-is-a-number-guessing-game-and-task-2-for-activity-7492204337545486336-wSxI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGhS9dwBbGp1DjhFPZGT0Q7ib3ko4pit5Yk
+## linkedin 
 
 # Web Scraper
 
