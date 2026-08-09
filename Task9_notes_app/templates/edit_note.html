@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Edit Note - Notes App{% endblock %}
+
+{% block content %}
+
+<div class="form-card">
+
+    <h1>Edit Note</h1>
+
+    <form method="POST">
+
+        <label for="title">
+            Title
+        </label>
+
+        <input
+            type="text"
+            id="title"
+            name="title"
+            value="{{ note['title'] }}"
+            required
+        >
+
+        <label for="content">
+            Content
+        </label>
+
+        <textarea
+            id="content"
+            name="content"
+            rows="10"
+            required
+        >{{ note['content'] }}</textarea>
+
+        <div class="form-actions">
+
+            <button type="submit">
+                Update Note
+            </button>
+
+            <a href="{{ url_for('dashboard') }}" class="cancel-button">
+                Cancel
+            </a>
+
+        </div>
+
+    </form>
+
+</div>
+
+{% endblock %}
